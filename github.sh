@@ -1,7 +1,6 @@
 # Make executable with chmod +x <<filename.sh>>
 CURRENTDIR=${pwd}
 
-# step 1: name of the remote repo. Enter a SINGLE WORD ..or...separate with hyphens
 echo "What name do you want to give your remote repo?"
 read REPO_NAME
 
