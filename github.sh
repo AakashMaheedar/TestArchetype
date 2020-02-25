@@ -1,11 +1,9 @@
 # Make executable with chmod +x <<filename.sh>>
 CURRENTDIR=${pwd}
+REPO_NAME=${service-name}Service
 
-echo "What name do you want to give your remote repo?"
-read REPO_NAME
 
-echo "Enter a repo description: "
-read DESCRIPTION
+
 
 
 # step 2:  the local project folder path
